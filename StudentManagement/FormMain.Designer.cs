@@ -68,9 +68,9 @@ namespace StudentManagement
             this.label1.Location = new System.Drawing.Point(371, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(444, 39);
+            this.label1.Size = new System.Drawing.Size(457, 39);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hệ thống quản lý sinh viên";
+            this.label1.Text = "Hệ thống quản lý nhân viên";
             // 
             // label4
             // 

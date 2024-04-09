@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace StudentManagement
 {
     public partial class FormListClass : Form
@@ -47,7 +46,7 @@ namespace StudentManagement
                                         };
 
             comboBox1.Items.Clear();
-            comboBox1.Items.Add("Tên giảng viên");
+            comboBox1.Items.Add("Tên Giảng viên");
             comboBox1.SelectedIndex = 0;
             for (int i = 0; i < listTeacher.Count(); i++)
             {
@@ -56,9 +55,9 @@ namespace StudentManagement
             }
             dbLopHocShow.DataSource = listClassRoom.ToList();
             dbLopHocShow.Columns["IdClass"].HeaderText = "ID Class";
-            dbLopHocShow.Columns["ClassName"].HeaderText = "Tên Lớp";
-            dbLopHocShow.Columns["IdTeacher"].HeaderText = "ID Teacher";
-            dbLopHocShow.Columns["TeacherName"].HeaderText = " Giảng Viên ";
+            dbLopHocShow.Columns["ClassName"].HeaderText = "Tên Lớp";
+            dbLopHocShow.Columns["IdTeacher"].HeaderText = "ID Giảng viên";
+            dbLopHocShow.Columns["TeacherName"].HeaderText = " Giảng viên ";
         }
 
         private void btnFind_Click(object sender, EventArgs e)
@@ -95,7 +94,7 @@ namespace StudentManagement
                 listClassRoom = listClassRoom.Where(c => c.ClassName.Contains(ClassName));
             }
             
-            if (teacherName != "" && teacherName!="Tên giảng viên")
+            if (teacherName != "" && teacherName!="Tên Giảng viên")
             {
                 listClassRoom = listClassRoom.Where(c => c.TeacherName.Contains(teacherName));
             }

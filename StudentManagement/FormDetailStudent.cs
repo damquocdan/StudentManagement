@@ -62,7 +62,7 @@ namespace StudentManagement
             textBox3.Text = dataColumn.Cells[5].Value.ToString();
             comboBox1.SelectedItem = dataColumn.Cells[2].Value.ToString(); 
             comboBox2.SelectedItem = dataColumn.Cells[6].Value.ToString();
-            DateTime dateTime = DateTime.ParseExact(dataColumn.Cells[3].Value.ToString(), "dd/MM/yyyy", null);
+            var dateTime = DateTime.ParseExact(dataColumn.Cells[3].Value.ToString(), "dd/MM/yyyy", null);
 
             dateTimePicker1.Value = dateTime;
 

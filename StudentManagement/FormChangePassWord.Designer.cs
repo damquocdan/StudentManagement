@@ -1,5 +1,4 @@
-﻿
-namespace StudentManagement
+﻿namespace StudentManagement
 {
     partial class FormChangePassWord
     {

@@ -70,6 +70,7 @@ namespace StudentManagement
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(2, 10);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -99,9 +100,10 @@ namespace StudentManagement
             // 
             // buttonClose
             // 
-            this.buttonClose.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonClose.BackColor = System.Drawing.Color.LightBlue; // Thay đổi màu nền
             this.buttonClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonClose.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.buttonClose.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.buttonClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonClose.Location = new System.Drawing.Point(266, 303);
             this.buttonClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -114,9 +116,10 @@ namespace StudentManagement
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonUpdate.BackColor = System.Drawing.Color.LightBlue; // Thay đổi màu nền
             this.buttonUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonUpdate.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.buttonUpdate.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.buttonUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonUpdate.Location = new System.Drawing.Point(150, 303);
             this.buttonUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -133,10 +136,10 @@ namespace StudentManagement
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Sinh viên",
-            "Giảng viên",
-            "Nhân viên",
-            "Admin"});
+    "Sinh viên",
+    "Giảng viên",
+    "Nhân viên",
+    "Admin"});
             this.comboBox1.Location = new System.Drawing.Point(124, 0);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
@@ -148,6 +151,7 @@ namespace StudentManagement
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(2, 9);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -178,6 +182,7 @@ namespace StudentManagement
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(4, 8);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -201,9 +206,9 @@ namespace StudentManagement
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "Nam",
-            "Nữ",
-            "Khác"});
+    "Nam",
+    "Nữ",
+    "Khác"});
             this.comboBox2.Location = new System.Drawing.Point(124, 0);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
@@ -214,6 +219,7 @@ namespace StudentManagement
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(2, 6);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -238,6 +244,7 @@ namespace StudentManagement
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(2, 9);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -268,6 +275,7 @@ namespace StudentManagement
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(2, 10);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -298,6 +306,7 @@ namespace StudentManagement
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(2, 8);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -331,6 +340,7 @@ namespace StudentManagement
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.DarkBlue; // Thay đổi màu chữ
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(2, 9);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -408,6 +418,7 @@ namespace StudentManagement
             this.ResumeLayout(false);
 
         }
+
 
         #endregion
 

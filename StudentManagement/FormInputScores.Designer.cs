@@ -43,7 +43,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.textBox1.Location = new System.Drawing.Point(196, 125);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(129, 27);
@@ -53,7 +53,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.label1.Location = new System.Drawing.Point(68, 132);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 20);
@@ -63,7 +63,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.label3.Location = new System.Drawing.Point(94, 55);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 20);
@@ -72,7 +72,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.button1.Location = new System.Drawing.Point(219, 195);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 34);
@@ -84,7 +84,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.label4.Location = new System.Drawing.Point(6, 55);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 20);
@@ -94,7 +94,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.label5.Location = new System.Drawing.Point(10, 84);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 20);
@@ -104,7 +104,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.label6.Location = new System.Drawing.Point(95, 84);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 20);
@@ -114,7 +114,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label7.Location = new System.Drawing.Point(138, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(106, 25);
@@ -124,7 +124,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.label2.Location = new System.Drawing.Point(68, 168);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 20);
@@ -133,7 +133,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.textBox2.Location = new System.Drawing.Point(196, 161);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(129, 27);
@@ -142,7 +142,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.groupBox1.Location = new System.Drawing.Point(24, 106);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(325, 97);

@@ -66,19 +66,22 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(296, 189);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 38);
             this.button1.TabIndex = 4;
             this.button1.Text = "Xác nhận";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Blue;
             this.label3.Location = new System.Drawing.Point(191, 36);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(131, 26);
@@ -107,7 +110,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "FormUpdateClass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormUpdateClass";
+            this.Text = "Cập nhật lớp học";
             this.ResumeLayout(false);
             this.PerformLayout();
 

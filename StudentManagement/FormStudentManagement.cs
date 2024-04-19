@@ -63,11 +63,7 @@ namespace StudentManagement
             }
         }
 
-        private void danhSáchTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormListUsers formListUsers = new FormListUsers();
-            AddForm(formListUsers);
-        }
+
         private void AddForm(Form form)
         {
             this.pnlContent.Controls.Clear();
@@ -87,30 +83,31 @@ namespace StudentManagement
 
 
         }
-        private void thoatToolStripMenuItem_Click(object sender, EventArgs e)
+
+
+
+        private void myClassToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            var User = db.Teacher.FirstOrDefault(c => c.idUser == idUser);
+            string role = User.Account.Role.Replace(" ", "").ToLower();
+            int idGiangVien = 0;
+            if (role == "giảngviên")
+            {
+                if (User.IdClass != null)
+                {
+                    idGiangVien = User.IdTeacher;
+                    FormMyClass formMyClass = new FormMyClass(idGiangVien);
+                    AddForm(formMyClass);
+                }
+            }
         }
 
-        private void tàiKhoảnToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            User user = new User(idUser);
-            AddForm(user);
-            //user.ShowDialog();
-        }
-
-        private void trangChủToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormMain formMain = new FormMain(idUser);
-            AddForm(formMain);
-        }
-
-        private void sinhVienToolStripMenuItem_Click(object sender, EventArgs e)
+        private void sinhVienToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             var User = db.Account.Find(idUser);
             string role = User.Role.Replace(" ", "").ToLower();
             int checkRole = 0;
-            if(role == "giảngviên")
+            if (role == "giảngviên")
             {
                 checkRole = User.Id;
             }
@@ -118,49 +115,25 @@ namespace StudentManagement
             AddForm(formListStudent);
         }
 
-        private void lopHocToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormListClass formListClass = new FormListClass();
-            AddForm(formListClass);
-        }
-
-        private void dangKyToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormRegesterSubject formRegesterSubject = new FormRegesterSubject(idUser);
-            AddForm(formRegesterSubject);
-        }
-
-        private void monHocToolStripMenuItem_Click(object sender, EventArgs e)
+        private void monHocToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             FormListSubject formListSubject = new FormListSubject();
             AddForm(formListSubject);
         }
 
-        private void giaoVienToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void giaoVienToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             FormListTeacher formlistTeacher = new FormListTeacher();
             AddForm(formlistTeacher);
         }
 
-        private void đăngKýMônHọcToolStripMenuItem_Click(object sender, EventArgs e)
+        private void lopHocToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            FormRegesterSubjectClass formRegesterSubjectClass = new FormRegesterSubjectClass(idUser);
-            AddForm(formRegesterSubjectClass);
+            FormListClass formListClass = new FormListClass();
+            AddForm(formListClass);
         }
 
-        private void DiemThanhPhanToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormScores formScores = new FormScores(idUser);
-            AddForm(formScores);
-        }
-
-        private void DiemThiToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormExam formExam = new FormExam(idUser);
-            AddForm(formExam);  
-        }
-
-        private void traCuuDiemToolStripMenuItem_Click(object sender, EventArgs e)
+        private void traCuuDiemToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             var User = db.Account.Find(idUser);
             string role = User.Role.Replace(" ", "").ToLower();
@@ -173,20 +146,52 @@ namespace StudentManagement
             AddForm(formCheckScores);
         }
 
-        private void lớpHọcCủaTôiToolStripMenuItem_Click(object sender, EventArgs e)
+        private void DiemThiToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            var User = db.Teacher.FirstOrDefault(c=>c.idUser==idUser);
-            string role = User.Account.Role.Replace(" ", "").ToLower();
-            int idGiangVien = 0;
-            if (role == "giảngviên")
-            {
-                if (User.IdClass != null)
-                {
-                    idGiangVien = User.IdTeacher;
-                    FormMyClass formMyClass = new FormMyClass(idGiangVien);
-                    AddForm(formMyClass);
-                }
-            }
+            FormExam formExam = new FormExam(idUser);
+            AddForm(formExam);
+
+        }
+
+        private void DiemThanhPhanToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FormScores formScores = new FormScores(idUser);
+            AddForm(formScores);
+        }
+
+        private void dangKyToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FormRegesterSubjectClass formRegesterSubjectClass = new FormRegesterSubjectClass(idUser);
+            AddForm(formRegesterSubjectClass);
+        }
+
+        private void dangkymonhocClassHọcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormRegesterSubject formRegesterSubject = new FormRegesterSubject(idUser);
+            AddForm(formRegesterSubject);
+        }
+
+        private void trangChuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormMain formMain = new FormMain(idUser);
+            AddForm(formMain);
+        }
+
+        private void taikhoanToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            User user = new User(idUser);
+            AddForm(user);
+        }
+
+        private void thoatToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void danhSachTaiKhoanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormListUsers formListUsers = new FormListUsers();
+            AddForm(formListUsers);
         }
     }
 }

@@ -46,15 +46,16 @@ namespace StudentManagement
             // 
             this.lstDaChon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstDaChon.FormattingEnabled = true;
-            this.lstDaChon.ItemHeight = 20;
+            this.lstDaChon.ItemHeight = 17;
             this.lstDaChon.Location = new System.Drawing.Point(393, 228);
             this.lstDaChon.Margin = new System.Windows.Forms.Padding(4);
             this.lstDaChon.Name = "lstDaChon";
-            this.lstDaChon.Size = new System.Drawing.Size(271, 264);
+            this.lstDaChon.Size = new System.Drawing.Size(271, 259);
             this.lstDaChon.TabIndex = 0;
             // 
             // btnRemoveAll
             // 
+            this.btnRemoveAll.BackColor = System.Drawing.SystemColors.GrayText;
             this.btnRemoveAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRemoveAll.Location = new System.Drawing.Point(305, 401);
             this.btnRemoveAll.Margin = new System.Windows.Forms.Padding(4);
@@ -62,11 +63,12 @@ namespace StudentManagement
             this.btnRemoveAll.Size = new System.Drawing.Size(73, 34);
             this.btnRemoveAll.TabIndex = 19;
             this.btnRemoveAll.Text = "<<";
-            this.btnRemoveAll.UseVisualStyleBackColor = true;
+            this.btnRemoveAll.UseVisualStyleBackColor = false;
             this.btnRemoveAll.Click += new System.EventHandler(this.btnRemoveAll_Click);
             // 
             // btnRemoveOne
             // 
+            this.btnRemoveOne.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnRemoveOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRemoveOne.Location = new System.Drawing.Point(305, 359);
             this.btnRemoveOne.Margin = new System.Windows.Forms.Padding(4);
@@ -74,11 +76,12 @@ namespace StudentManagement
             this.btnRemoveOne.Size = new System.Drawing.Size(73, 34);
             this.btnRemoveOne.TabIndex = 18;
             this.btnRemoveOne.Text = "<";
-            this.btnRemoveOne.UseVisualStyleBackColor = true;
+            this.btnRemoveOne.UseVisualStyleBackColor = false;
             this.btnRemoveOne.Click += new System.EventHandler(this.btnRemoveOne_Click);
             // 
             // btnMoveAll
             // 
+            this.btnMoveAll.BackColor = System.Drawing.SystemColors.GrayText;
             this.btnMoveAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMoveAll.Location = new System.Drawing.Point(305, 317);
             this.btnMoveAll.Margin = new System.Windows.Forms.Padding(4);
@@ -86,11 +89,12 @@ namespace StudentManagement
             this.btnMoveAll.Size = new System.Drawing.Size(73, 34);
             this.btnMoveAll.TabIndex = 17;
             this.btnMoveAll.Text = ">>";
-            this.btnMoveAll.UseVisualStyleBackColor = true;
+            this.btnMoveAll.UseVisualStyleBackColor = false;
             this.btnMoveAll.Click += new System.EventHandler(this.btnMoveAll_Click);
             // 
             // btnMoveOne
             // 
+            this.btnMoveOne.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnMoveOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMoveOne.Location = new System.Drawing.Point(305, 275);
             this.btnMoveOne.Margin = new System.Windows.Forms.Padding(4);
@@ -98,14 +102,14 @@ namespace StudentManagement
             this.btnMoveOne.Size = new System.Drawing.Size(73, 34);
             this.btnMoveOne.TabIndex = 16;
             this.btnMoveOne.Text = ">";
-            this.btnMoveOne.UseVisualStyleBackColor = true;
+            this.btnMoveOne.UseVisualStyleBackColor = false;
             this.btnMoveOne.Click += new System.EventHandler(this.btnMoveOne_Click);
             // 
             // lstMatHang
             // 
             this.lstMatHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstMatHang.FormattingEnabled = true;
-            this.lstMatHang.ItemHeight = 20;
+            this.lstMatHang.ItemHeight = 17;
             this.lstMatHang.Items.AddRange(new object[] {
             "CPU",
             "MainBoard",
@@ -117,7 +121,7 @@ namespace StudentManagement
             this.lstMatHang.Location = new System.Drawing.Point(20, 228);
             this.lstMatHang.Margin = new System.Windows.Forms.Padding(4);
             this.lstMatHang.Name = "lstMatHang";
-            this.lstMatHang.Size = new System.Drawing.Size(271, 264);
+            this.lstMatHang.Size = new System.Drawing.Size(271, 259);
             this.lstMatHang.TabIndex = 0;
             // 
             // label1
@@ -126,12 +130,13 @@ namespace StudentManagement
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(246, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 29);
+            this.label1.Size = new System.Drawing.Size(158, 24);
             this.label1.TabIndex = 20;
             this.label1.Text = "Đăng ký môn học";
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(537, 500);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -139,7 +144,7 @@ namespace StudentManagement
             this.button2.Size = new System.Drawing.Size(127, 39);
             this.button2.TabIndex = 28;
             this.button2.Text = "Đăng ký";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
@@ -148,7 +153,7 @@ namespace StudentManagement
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(18, 204);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 20);
+            this.label3.Size = new System.Drawing.Size(134, 17);
             this.label3.TabIndex = 29;
             this.label3.Text = "Danh sách môn học";
             // 
@@ -158,7 +163,7 @@ namespace StudentManagement
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(389, 204);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(221, 20);
+            this.label5.Size = new System.Drawing.Size(188, 17);
             this.label5.TabIndex = 30;
             this.label5.Text = "Danh sách môn học đăng ký";
             // 
@@ -167,7 +172,7 @@ namespace StudentManagement
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.textBox3.Location = new System.Drawing.Point(464, 62);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(154, 27);
+            this.textBox3.Size = new System.Drawing.Size(154, 23);
             this.textBox3.TabIndex = 47;
             // 
             // label7
@@ -176,12 +181,13 @@ namespace StudentManagement
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(336, 69);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 20);
+            this.label7.Size = new System.Drawing.Size(106, 17);
             this.label7.TabIndex = 46;
             this.label7.Text = "Tên giảng viên:";
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(23, 160);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
@@ -189,7 +195,7 @@ namespace StudentManagement
             this.button1.Size = new System.Drawing.Size(123, 34);
             this.button1.TabIndex = 45;
             this.button1.Text = "Tìm kiếm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBox2
@@ -200,7 +206,7 @@ namespace StudentManagement
             "Chọn khoa"});
             this.comboBox2.Location = new System.Drawing.Point(166, 103);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(154, 28);
+            this.comboBox2.Size = new System.Drawing.Size(154, 25);
             this.comboBox2.TabIndex = 44;
             this.comboBox2.Text = "Chọn khoa";
             // 
@@ -210,7 +216,7 @@ namespace StudentManagement
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(78, 111);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 20);
+            this.label6.Size = new System.Drawing.Size(72, 17);
             this.label6.TabIndex = 43;
             this.label6.Text = "Tên khoa:";
             // 
@@ -219,7 +225,7 @@ namespace StudentManagement
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(167, 62);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(154, 27);
+            this.textBox1.Size = new System.Drawing.Size(154, 23);
             this.textBox1.TabIndex = 42;
             // 
             // label4
@@ -228,12 +234,13 @@ namespace StudentManagement
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(50, 69);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 20);
+            this.label4.Size = new System.Drawing.Size(95, 17);
             this.label4.TabIndex = 41;
             this.label4.Text = "Tên môn học:";
             // 
             // FormRegesterSubject
             // 
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(686, 571);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label7);
